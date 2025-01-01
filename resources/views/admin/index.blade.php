@@ -96,7 +96,7 @@
                     <div class="card card-round">
                         <h1>Room Type Popularity</h1>
                         <canvas id="roomTypeChart" width="400" height="200"></canvas>
-                        <script>
+                        {{-- <script>
                             const ctx = document.getElementById('roomTypeChart').getContext('2d');
                             const chart = new Chart(ctx, {
                                 type: 'bar',
@@ -124,7 +124,7 @@
                                     }
                                 }
                             });
-                        </script>
+                        </script> --}}
                         <div class="card-body">
                             <div class="chart-container" style="min-height: 375px">
                                 <canvas id="statisticsChart"></canvas>
@@ -629,7 +629,7 @@
 
 
     <!-- jQuery Scrollbar -->
-    
+
 
 
     <script>
